@@ -9,7 +9,7 @@
 - Visual Studio Code
 - Email Account
 
-### Create our Free Azure Account
+### Create Project Folder
 <img width="886" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/e49a10a8-6f86-4c0a-9baf-5f3e9f6858dd">
 
 1. Sign up: [Azure Free Account](https://azure.microsoft.com/en-us/free/)
