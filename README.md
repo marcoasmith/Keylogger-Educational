@@ -7,6 +7,8 @@
 - Python installed
 - Visual Studio Code
 - Email Account
+### Summary
+This project is an educational Python-based keylogger designed to demonstrate how keystroke logging works in cybersecurity. It captures keystrokes and simulates data exfiltration via email. 
 
 ### Create Project Folder
 <img width="885" alt="Screenshot 2025-03-21 at 9 42 05 AM" src="https://github.com/user-attachments/assets/3da03be1-399c-451b-9409-30972198ba0b" />
