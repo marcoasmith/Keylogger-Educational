@@ -11,12 +11,10 @@
 
 ### Create Project Folder
 <img width="885" alt="Screenshot 2025-03-21 at 9 42 05 AM" src="https://github.com/user-attachments/assets/3da03be1-399c-451b-9409-30972198ba0b" />
-">
 
-1. Sign up: [Azure Free Account](https://azure.microsoft.com/en-us/free/)
-2. Login: [Azure Portal](https://portal.azure.com)
 
-### Prepare Vulnerability Management Scanner
+
+### Install Dependencies
 <img width="890" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8740ab1b-e972-4741-a7df-bdc7d883c24a">
 
 1. Go to [Azure Portal](https://portal.azure.com)
