@@ -10,7 +10,8 @@
 - Email Account
 
 ### Create Project Folder
-<img width="886" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/e49a10a8-6f86-4c0a-9baf-5f3e9f6858dd">
+<img width="885" alt="Screenshot 2025-03-21 at 9 42 05 AM" src="https://github.com/user-attachments/assets/3da03be1-399c-451b-9409-30972198ba0b" />
+">
 
 1. Sign up: [Azure Free Account](https://azure.microsoft.com/en-us/free/)
 2. Login: [Azure Portal](https://portal.azure.com)
