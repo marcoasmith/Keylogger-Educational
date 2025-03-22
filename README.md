@@ -4,7 +4,6 @@
 ## Lab Outline: Python Keylogger with Email Exfiltration
 
 ### Prerequisites
-- Computer with the Internet
 - Python installed
 - Visual Studio Code
 - Email Account
@@ -23,41 +22,19 @@
 ### Write Keylogger Script
 <img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/7201508f-be10-476a-9b56-b828cce7967b" />
 
-1. Go to [Azure Portal](https://portal.azure.com)
-2. Search for Virtual Machines and create a new Virtual Machine.
-3. Configure the VM:
-   - Resource Group: Vulnerability-Management
-   - VM Name: Win10-Vulnerable
-   - Region: Same as the OpenVAS VM (East US 2)
-   - Virtual Network: Same as OpenVAS
-   - Image: Windows 10 Pro
-   - Size: Any size with 2 vCPUs
-   - Username: azureuser / Cyberlab123!
-   - Networking: Same Vnet as OpenVAS
-4. Create the VM.
-5. Once the VM is created, ensure you can RDP into it with the provided credentials.
-6. After logging in, make the VM vulnerable:
-   - Disable the Windows Firewall
-   - Gather up some [Old Software](https://drive.google.com/drive/folders/1n83ilCjZWZulbDdYnUe9wQPK2buY47_U?usp=sharing)
-   - Install an Old Version of FireFox: Firefox Setup 97.0b5
-   - Install an Old Version of VLC Player: vlc-1.1.7-win32
-   - Install an Old Version of Adobe Reader: 10.0_AdbeRdr1000_en_US_1_
-   - Restart the VM.
 
-### Configure OpenVAS to Perform First Unauthenticated Scan against our Vulnerable VM
-<img width="730" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8b3ca917-86d7-404c-94f6-b6402d391af4">
 
-1. Login to OpenVAS and navigate to Assets > Hosts > New Host.
-2. Add the Client VM PRIVATE IP Address.
-3. Create a New Target from the Host, name it "Azure Vulnerable VMs".
-4. Take note of the credentials. We will add SMB credentials later.
-5. Create a new Task:
-   - Name & Comment: "Scan - Azure Vulnerable VMs"
-   - Scan Targets: "Azure Vulnerable VMs"
-6. Save the Task.
-7. Start the "Scan - Azure Vulnerable VMs" Task.
-8. Once the scan is finished, click the date under "Last Report" to see the results.
-9. Take note of the Tabs, especially the "Results" tab.
+### Create a Gmail App Password
+![Screenshot 2025-03-22 at 2 28 35 PM](https://github.com/user-attachments/assets/f21fed0b-6706-4ed0-9906-9bea82697399)
+
+
+
+1. Go to https://myaccount.google.com/security
+2. Enable 2-Step Verification
+3. Click App Passwords
+4. Create app name and generate password
+5. Use that 16-character password in email_pass
+
 
 ### Make Configurations for Credentialed Scans (Within VM)
 <img width="508" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/2ce2ea53-b67b-4206-8050-fecce0a11c52">
