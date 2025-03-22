@@ -18,21 +18,10 @@
 <img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/f2d1ff14-c4d8-4f81-bc34-47ff3543475b" />
 
 
-1. Go to [Azure Portal](https://portal.azure.com)
-2. Navigate to the Marketplace and search for "OpenVAS secured and supported by HOSSTED"
-3. Choose the "Start with a pre-set configuration" option and select the weakest configuration.
-4. Click "Continue to Create VM"
-5. Configure the VM:
-   - Resource Group: Vulnerability-Management
-   - VM Name: OpenVAS (Take note of the region and Vnet–consider East US 2)
-   - Authentication: Username → azureuser / Cyberlab123!
-   - Monitoring: Disable Boot Diagnostic
-6. Click "Create" to create the VM.
-7. Once the VM is created, SSH into it using PowerShell (Windows) or Terminal (MacOS) with the provided credentials.
-8. Wait until the deployment of OpenVAS is complete.
 
-### Create Client Virtual Machine and Make it Vulnerable
-<img width="752" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/493ed685-70f8-4260-84fb-037bd01c53fa">
+
+### Write Keylogger Script
+<img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/7201508f-be10-476a-9b56-b828cce7967b" />
 
 1. Go to [Azure Portal](https://portal.azure.com)
 2. Search for Virtual Machines and create a new Virtual Machine.
