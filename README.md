@@ -36,21 +36,13 @@
 5. Use that 16-character password in email_pass
 
 
-### Make Configurations for Credentialed Scans (Within VM)
-<img width="508" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/2ce2ea53-b67b-4206-8050-fecce0a11c52">
+### Run the Script
+<img width="1253" alt="Screenshot 2025-03-21 at 10 15 15 AM" src="https://github.com/user-attachments/assets/9fddee21-b0f1-4bb4-b744-114bc3ff21ea" />
 
-1. Disable Windows Firewall.
-2. Disable User Account Control.
-3. Enable Remote Registry.
-4. Set Registry Key:
-   - Launch Registry Editor (regedit.exe) in "Run as administrator" mode.
-   - Navigate to HKEY_LOCAL_MACHINE hive.
-   - Open SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System key.
-   - Create a new DWORD (32-bit) value with the following properties:
-     - Name: LocalAccountTokenFilterPolicy
-     - Value: 1
-   - Close Registry Editor.
-5. Restart the VM.
+
+
+
+
 
 ### Make Configurations for Credentialed Scans (OpenVAS)
 <img width="722" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/474cb714-19ad-4c99-8e60-945a2a12d7e5">
