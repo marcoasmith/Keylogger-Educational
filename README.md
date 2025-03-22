@@ -15,7 +15,7 @@
 
 
 ### Install Dependencies
-<img width="890" alt="image" src="<img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/f2d1ff14-c4d8-4f81-bc34-47ff3543475b" />
+<img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/f2d1ff14-c4d8-4f81-bc34-47ff3543475b" />
 
 
 1. Go to [Azure Portal](https://portal.azure.com)
