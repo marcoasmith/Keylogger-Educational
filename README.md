@@ -15,7 +15,8 @@
 
 
 ### Install Dependencies
-<img width="890" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8740ab1b-e972-4741-a7df-bdc7d883c24a">
+<img width="890" alt="image" src="<img width="885" alt="Screenshot 2025-03-21 at 9 43 28 AM" src="https://github.com/user-attachments/assets/f2d1ff14-c4d8-4f81-bc34-47ff3543475b" />
+">
 
 1. Go to [Azure Portal](https://portal.azure.com)
 2. Navigate to the Marketplace and search for "OpenVAS secured and supported by HOSSTED"
