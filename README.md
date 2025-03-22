@@ -1,11 +1,13 @@
 # Keylogger-Educational
 
 
-## Lab Outline: Azure Vulnerability Management
+## Lab Outline: Python Keylogger with Email Exfiltration
 
 ### Prerequisites
 - Computer with the Internet
-- Free Azure Account - Possible to do with Free Subscription
+- Python installed
+- Visual Studio Code
+- Email Account
 
 ### Create our Free Azure Account
 <img width="886" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/e49a10a8-6f86-4c0a-9baf-5f3e9f6858dd">
